@@ -34,13 +34,13 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.47.0",
-    "@typescript-eslint/parser": "^8.47.0",
+    "@typescript-eslint/eslint-plugin": "^8.48.0",
+    "@typescript-eslint/parser": "^8.48.0",
     "defu": "^6.1.4",
     "ollama": "^0.6.3"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^3.1.0",
+    "@nuxt/devtools": "^3.1.1",
     "@nuxt/eslint-config": "^1.10.0",
     "@nuxt/kit": "^4.2.1",
     "@nuxt/module-builder": "^1.0.2",
@@ -52,9 +52,9 @@
     "nuxt": "^4.2.1",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4",
-    "vue-tsc": "^3.1.4"
+    "vue-tsc": "^3.1.5"
   },
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.23.0",
   "volta": {
     "node": "24.11.1"
   }
