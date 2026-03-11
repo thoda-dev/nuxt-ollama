@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v1.2.19
+
+[compare changes](https://github.com/thoda-dev/nuxt-ollama/compare/v1.2.18...v1.2.19)
+
 ## v1.2.18
 
 [compare changes](https://github.com/thoda-dev/nuxt-ollama/compare/v1.2.17...v1.2.18)
