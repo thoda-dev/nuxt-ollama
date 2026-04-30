@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.24
+
+[compare changes](https://github.com/thoda-dev/nuxt-ollama/compare/v1.2.23...v1.2.24)
+
+### 🏡 Chore
+
+- **release:** V1.2.23 ([820ee87](https://github.com/thoda-dev/nuxt-ollama/commit/820ee87))
+
+### ❤️ Contributors
+
+- Thomas <github.passage306@passmail.net>
+
 ## v1.2.23
 
 [compare changes](https://github.com/thoda-dev/nuxt-ollama/compare/v1.2.23...v1.2.23)
