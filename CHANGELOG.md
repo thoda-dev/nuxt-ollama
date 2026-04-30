@@ -3,6 +3,10 @@
 
 ## v1.2.23
 
+[compare changes](https://github.com/thoda-dev/nuxt-ollama/compare/v1.2.23...v1.2.23)
+
+## v1.2.23
+
 [compare changes](https://github.com/thoda-dev/nuxt-ollama/compare/v1.2.22...v1.2.23)
 
 ## v1.2.22
