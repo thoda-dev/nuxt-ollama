@@ -1,6 +1,6 @@
 {
   "name": "nuxt-ollama",
-  "version": "1.2.25",
+  "version": "1.2.26",
   "description": "Easy ollama integration for Nuxt",
   "repository": {
     "type": "git",
