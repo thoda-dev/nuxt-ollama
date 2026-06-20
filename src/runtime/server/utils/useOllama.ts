@@ -3,7 +3,7 @@ import type { ModuleOptions } from '../../../module'
 import { useRuntimeConfig } from '#imports'
 
 export function useOllama() {
-  const options: ModuleOptions = useRuntimeConfig().public.ollama as ModuleOptions
+  const options: ModuleOptions = useRuntimeConfig().ollama as ModuleOptions
   const headers: Record<string, string> = {}
   if (options.api_key) {
     headers.Authorization = `Bearer ${options.api_key}`

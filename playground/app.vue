@@ -92,7 +92,7 @@ const send = async () => {
   }
 }
 
-const { data: response, refresh } = await useFetch('/api/ollama')
+const { data: response, refresh } = useFetch('/api/ollama')
 
-const { data: list, refresh: refreshList } = await useFetch('/api/list')
+const { data: list, refresh: refreshList } = useFetch('/api/list')
 </script>

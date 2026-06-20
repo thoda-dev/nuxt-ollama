@@ -1,0 +1,9 @@
+shamefullyHoist: true
+
+# lock package for 3 days to prevent supply chain
+minimumReleaseAge: 4320
+
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  unrs-resolver: true

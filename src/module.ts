@@ -1,4 +1,4 @@
-import { defineNuxtModule, createResolver, addServerImportsDir, addImportsDir } from '@nuxt/kit'
+import { defineNuxtModule, createResolver, addServerImportsDir, addImportsDir, addServerHandler } from '@nuxt/kit'
 import { defu } from 'defu'
 import type { OllamaOptions } from './types'
 
@@ -30,12 +30,16 @@ export default defineNuxtModule<ModuleOptions>({
   setup(_options, _nuxt) {
     const resolver = createResolver(import.meta.url)
 
-    // expose options to runtime config
+    // Keep config server-side only — never exposed to the browser
     const runtimeConfig = _nuxt.options.runtimeConfig
-    const currentConfig = (runtimeConfig.public.ollama ?? {}) as OllamaOptions
-    runtimeConfig.public.ollama = defu(currentConfig, _options)
+    runtimeConfig.ollama = defu(runtimeConfig.ollama as Partial<ModuleOptions> ?? {}, _options)
 
     addImportsDir(resolver.resolve('./runtime/composables'))
     addServerImportsDir(resolver.resolve('./runtime/server/utils'))
+
+    addServerHandler({
+      route: '/api/__ollama/**',
+      handler: resolver.resolve('./runtime/server/routes/ollama-proxy'),
+    })
   },
 })
