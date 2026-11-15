@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.3.5
+
+[compare changes](https://github.com/thoda-dev/nuxt-ollama/compare/v1.3.4...v1.3.5)
+
+### 🏡 Chore
+
+- Bump vitest to v5 and @nuxt/devtools to v4 ([a5d24bb](https://github.com/thoda-dev/nuxt-ollama/commit/a5d24bb))
+
+### ❤️ Contributors
+
+- Thomas ([@thoda-dev](https://github.com/thoda-dev))
+
 ## v1.3.4
 
 [compare changes](https://github.com/thoda-dev/nuxt-ollama/compare/v1.3.3...v1.3.4)
