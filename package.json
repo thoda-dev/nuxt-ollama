@@ -41,7 +41,7 @@
     "ollama": "^0.6.4"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^3.4.4",
+    "@nuxt/devtools": "^4.0.0",
     "@nuxt/eslint-config": "^1.17.0",
     "@nuxt/kit": "^4.6.4",
     "@nuxt/module-builder": "^1.0.4",
